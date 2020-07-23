@@ -1,0 +1,161 @@
+@charset "UTF-8";
+	* {
+	padding: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	position: relative;
+	width:1448px;
+	height:680px;
+	border:1px solid wihte;
+	border-radius: 40px;
+	margin: 20px auto;
+}
+#panel {
+	width:1448px;
+	height:680px;
+	background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+	margin:20px auto;
+	background-size:400%;
+	border-radius: 40px;
+	z-index: 1;
+	animation: animate 8s linear infinite;
+}
+@keyframes animate {
+	from {
+	background-position: 0%;
+}
+to {
+	background-position: 400%;
+}
+}
+#panel:before {
+	content: "";
+	position: absolute;
+	top: -5px;
+	left: -5px;
+	right: -5px;
+	bottom: -5px;
+	z-index: -1;
+	background:linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+	background-size: 400%;
+	opacity: 0;
+	border-radius: 40px;
+	transition: 0.5s;
+}
+#panel:before {
+	filter: blur(20px);
+	opacity: 1;
+	border-radius: 40px;
+	animation: animate 8s linear infinite;
+}
+#form {
+	position:absolute;
+	left:50%;
+	top:50%;
+	padding-top:80px;
+	transform: translate(-50%,-50%);
+	width: 40%;
+	height: 80%;
+	background-color: rgba(0,0,0,0.4);
+	text-align:center;
+}
+#top {
+	color:white;
+	font-family: "Microsoft YaHei";
+	font-size:32px;
+	font-weight: 750;
+	letter-spacing: 8px;
+}
+#user {
+	width:70%;
+	height:10%;
+	margin: 45px auto;
+}
+#user #userin {
+	width: 75%;
+	height: 70%;
+	outline: 0;
+	padding: -5px;
+
+}
+#pass {
+	width:70%;
+	height:10%;
+	margin: 20px auto;
+}
+#pass #passin {
+	width: 75%;
+	height: 70%;
+	outline: 0;
+	padding: -5px;
+}
+input {
+	background-color: pink;
+}
+label {
+	color:white;
+	font-family: "Microsoft YaHei";
+	font-size:20px;
+	font-weight: 750;
+	letter-spacing: 8px;
+}
+#button {
+	width: 250px;
+	height: 66px;
+	border-radius: 40px;
+	margin-top:20px;
+	outline:none;
+	background:linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+	background-size: 400%;
+	animation: animate 8s linear infinite;
+}
+@keyframes animate {
+	from {
+	background-position: 0%;
+}
+to {
+	background-position: 400%;
+}
+}
+#toptop{
+	
+	width: 400px;
+	display:block;
+	border-bottom:2px solid white;
+	position: absolute;
+	left: 35px;
+	top:45px;
+	padding:10px;
+	animation: toptop 8s ease infinite;
+}
+@keyframes toptop {
+	from {
+	transform: translateX(0);
+}
+to {
+	transform: translateX(979px);
+	width: 0;
+}
+}
+#leftleft{
+	
+	width: 400px;
+	display:block;
+	border-bottom:2px solid white;
+	position: absolute;
+	left: 1014px;
+	top:590px;
+	padding:10px;
+	animation: leftleft 8s ease infinite;
+}
+@keyframes leftleft{
+	from {
+	transform: translateX(0);
+}
+to {
+	transform: translateX(-590px);
+	width: 0;
+}
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Jedis" />
+        <module name="Maven_MySql" />
+        <module name="Maven_web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Jedis" target="9" />
+      <module name="jedis" target="1.6" />
+      <module name="Maven" target="1.7" />
+      <module name="Maven_MySql" target="9" />
+      <module name="Maven_WEB" target="1.7" />
+      <module name="Maven_Web" target="1.7" />
+      <module name="Maven_web" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
