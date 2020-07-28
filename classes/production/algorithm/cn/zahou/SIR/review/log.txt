@@ -1,0 +1,25 @@
+2020年07月30日14时32分39秒--->>>测试共出现bug：0 次！
+--------------------------------------------
+indexout:IllegalAccessException
+div:InvocationTargetException
+------------------end-----------------------
+2020年07月30日14时33分28秒--->>>测试共出现bug：0 次！
+--------------------------------------------
+报错方法：div:InvocationTargetException
+报错方法：indexout:IllegalAccessException
+------------------end-----------------------
+2020年07月30日14时33分56秒--->>>测试共出现bug：0 次！
+--------------------------------------------
+报错方法：[indexout}:IllegalAccessException
+报错方法：[div}:InvocationTargetException
+------------------end-----------------------
+2020年07月30日14时34分16秒--->>>测试共出现bug：0 次！
+--------------------------------------------
+报错方法：｛div}:InvocationTargetException
+报错方法：｛indexout}:IllegalAccessException
+------------------end-----------------------
+-------------------start-----------------------
+报错方法：｛div}:InvocationTargetException
+报错方法：｛indexout}:IllegalAccessException
+------------------end-----------------------
+2020年07月30日14时35分51秒--->>>测试共出现bug：2 次！
