@@ -9,6 +9,7 @@
 <link rel="stylesheet" type="text/css" href="main.css"/>
 	<base href="http://localhost:2244/Web_login/">
 </head>
+
 <body>
 <div id="panel">
 	<span id="toptop"></span>
@@ -18,6 +19,7 @@
 			<div id="user">
 				<label for="user">
   账号:
+
 				</label><input id="userin" type="text" style="font-size:20px;font-weight: 750;color: white;" placeholder="请输入用户帐号" name="username">
 <!-- 				<br> -->
 <!-- 				<span id="msg" style="color:red;font-weight: 750;margin-top:20px;"></span> -->
@@ -30,6 +32,7 @@
 	</form>
 	<span id="leftleft"></span>
 </div>
+
 <!-- 
 	以/开头的路径即为绝对路径
 	绝对路径中的/代表什么？
