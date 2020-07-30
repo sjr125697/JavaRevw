@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../JDBC_recv/JDBC_recv.iml" filepath="$PROJECT_DIR$/../JDBC_recv/JDBC_recv.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Jedis/Jedis.iml" filepath="$PROJECT_DIR$/../Jedis/Jedis.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Maven_MySql/Maven_MySql.iml" filepath="$PROJECT_DIR$/../Maven_MySql/Maven_MySql.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Maven_web/Maven_web.iml" filepath="$PROJECT_DIR$/../Maven_web/Maven_web.iml" />
